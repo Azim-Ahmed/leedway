@@ -1,0 +1,18 @@
+//
+// Rem Calculator
+//
+
+@function rem($size) {
+  $rem: $size / 16;
+  @return #{$rem}rem;
+}
+
+@function px($size) {
+  $px: strip-units($size) * 16;
+  @return #{$px}px;
+}
+
+// removing "px" or "rem" from variable
+@function strip-units($number) {
+  @return $number / ($number * 0 + 1);
+}

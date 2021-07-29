@@ -1,0 +1,26 @@
+.contact {
+  @media (min-width: 1400px) {
+    height: 100vh;
+  }
+  .contact-us-content {
+    @media (min-width: 1400px) {
+      padding: 0 80px !important;
+    }
+  }
+}
+
+.contact-us {
+  textarea {
+    min-height: calc(0.5em + 9.75rem + 44px);
+  }
+  span {
+    margin-top: 4px !important;
+    font-size: 14px !important;
+  }
+  .inp {
+    &:focus {
+      box-shadow: none !important;
+      border: 1px solid $gray-100 !important;
+    }
+  }
+}

@@ -1,0 +1,98 @@
+.header-menu-bar {
+  width: 250px !important;
+
+  transform: translateX(-457px) !important ;
+  box-shadow: 2px 0 20px rgba(0, 0, 0, 0.05) !important;
+  &.show {
+    transform: translateX(0px) !important;
+  }
+  .sidebar-main-content {
+    .sidebar-body {
+      border-top: 1px solid $gray-100;
+      position: relative;
+      height: 93vh;
+      .form-control {
+        height: 40px;
+      }
+      li {
+        border-top: 1px solid $gray-100;
+        font-size: 14px;
+        font-weight: 600;
+        height: 64px !important;
+        a {
+          padding: 20px 70px 20px 14px;
+        }
+        &:hover {
+          background: $white;
+        }
+      }
+      .second {
+        top: 65px !important;
+        box-shadow: none !important;
+        .sidebar-main-content {
+          .first-back-btn {
+            background: $white;
+            text-align: left;
+            color: $black;
+            font-size: 14px;
+            font-weight: 600;
+            svg {
+              margin: 0 10px 3px 0;
+            }
+          }
+        }
+      }
+      .list-group {
+        position: relative !important;
+      }
+      .list-group-item {
+        position: relative !important;
+        border-top: none !important;
+      }
+      ul {
+        li {
+          border-top: none !important;
+          border-bottom: 1px solid #eee;
+        }
+        &:last-child {
+          li {
+            border-top: 1px solid #eee;
+            border-bottom: none !important;
+            height: auto !important;
+          }
+          position: absolute;
+          bottom: 0%;
+        }
+      }
+      .menubar-address {
+        .btn {
+          font-size: 12px;
+          padding: 0.375rem 1rem !important;
+        }
+        .contact-address {
+          margin-top: 1.5rem;
+        }
+        .social-links {
+          margin-top: 1.5rem;
+        }
+      }
+    }
+  }
+}
+.sidebar-backdrop.show {
+  opacity: 0 !important;
+}
+
+//cross & menu buttons
+
+.bar {
+  &:focus {
+    box-shadow: none !important;
+  }
+}
+
+.cross {
+  &:focus {
+    box-shadow: none !important;
+  }
+}

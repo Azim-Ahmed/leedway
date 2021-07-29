@@ -1,0 +1,69 @@
+.exploreContainerStyle {
+  .cardSectionOfExplore {
+    border-radius: 8px;
+  }
+  .active {
+    background: royalblue;
+    color: white;
+    border: none;
+    opacity: 1;
+  }
+  button {
+    color: black;
+    font-size: 25px;
+    font-weight: 500;
+    border: none;
+    background: none;
+    box-shadow: 1px 1px 6px gray;
+    margin: 0 5px;
+    padding: 9px;
+    line-height: 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.4s;
+    text-align: center;
+    &:hover {
+      background: royalblue;
+      color: white;
+      border: none;
+      opacity: 1;
+    }
+  }
+
+  .paginationBttns {
+    width: 80%;
+    height: 40px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+
+  .paginationBttns a {
+    padding: 10px;
+    margin: 8px;
+    border-radius: 5px;
+    border: 1px solid #2b2eff;
+    color: #2b2eff;
+    cursor: pointer;
+  }
+
+  .paginationBttns a:hover {
+    color: white;
+    background-color: #2b2eff;
+  }
+
+  .paginationActive a {
+    color: white;
+    background-color: teal;
+  }
+
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+}

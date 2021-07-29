@@ -1,0 +1,18 @@
+// Social buttons
+
+@each $color, $value in $socials {
+  .btn-#{$color} {
+    @include button-variant($value, $value);
+  }
+}
+
+@each $color, $value in $socials {
+  .btn-outline-#{$color} {
+    @include button-outline-variant($value);
+  }
+}
+.btn {
+  &:focus {
+    box-shadow: none !important;
+  }
+}

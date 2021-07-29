@@ -1,0 +1,57 @@
+$green: #2ecc71;
+$red: #e74c3c;
+$blue: #3498db;
+$yellow: #f1c40f;
+$purple: #8e44ad;
+$turquoise: #1abc9c;
+$primary: #67af89;
+$secondary: #2d6546;
+
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer / 4,
+  2: $spacer / 2,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 5,
+);
+
+//
+// Link
+//
+$link-color: $white;
+$link-decoration: none;
+// $link-hover-color: shift-color($link-color, $link-shade-percentage);
+$headings-color: $primary;
+
+//
+// Typography
+//
+$font-family-base: 'Montserrat';
+
+// Grid containers
+//
+// Define the maximum width of `.container` for different screen sizes.
+
+// scss-docs-start container-max-widths
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1200px,
+  xxl: 1620px,
+);
+
+// Font Size
+// $h1-font-size: $font-size-base * 3;
+
+// body color
+$body-color: $primary;
+
+$input-btn-focus-color: null;
+$input-btn-focus-width: 0;
+$input-btn-focus-color-opacity: 0;
+$input-btn-focus-box-shadow: null;
+$input-btn-focus-box-shadow: null !important;

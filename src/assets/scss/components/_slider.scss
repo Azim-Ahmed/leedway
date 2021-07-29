@@ -1,0 +1,146 @@
+// .hero-banner {
+//   .react-multiple-carousel__arrow {
+//     background: $primary;
+//     top: 40%;
+//     @media (max-width: 1199.98px) {
+//       min-width: 35px;
+//       min-height: 35px;
+//     }
+//     @media (max-width: 991.98px) {
+//       min-width: 20px;
+//       min-height: 20px;
+//       &::before {
+//         font-size: 1rem;
+//       }
+//     }
+
+//     @media (max-width: 767.98px) {
+//       min-width: 30px;
+//       min-height: 30px;
+//     }
+//     &:focus {
+//       outline: none;
+//     }
+//   }
+//   .react-multiple-carousel__arrow--right {
+//     right: calc(1% + 1px);
+//   }
+//   .react-multiple-carousel__arrow--left {
+//     left: calc(1% + 1px);
+//     @media (max-width: 1199.98px) {
+//       left: calc(1% + 1px);
+//     }
+//   }
+//   .react-multi-carousel-item {
+//     @media (max-width: 767.98px) {
+//       padding: 0px 25px 60px 40px !important;
+//     }
+//     @media (max-width: 575.98px) {
+//       padding: 0px 19px 60px 15px !important;
+//     }
+//   }
+//   .slider-left-content {
+//     @media (max-width: 1200px) and (min-width: 992px) {
+//       margin-left: 60px;
+//     }
+//   }
+// }
+// .testimonial {
+//   padding: 50px 0px;
+//   .team-member {
+//     h1 {
+//       padding: 0px 0 40px;
+//       @media (max-width: 991.98px) {
+//         font-size: 25px;
+//         padding: 0px 65px 40px;
+//       }
+//       @media (max-width: 767.98px) {
+//         padding: 0px 0px 40px;
+//       }
+//       &::after {
+//         content: '';
+//         border: 1px solid $primary;
+//         width: 1px;
+//         position: absolute;
+//         top: -40px;
+//         bottom: 100%;
+//         left: 0;
+//         right: 0;
+//         margin: 0px auto;
+//         opacity: 0.4;
+//       }
+//       &::before {
+//         content: url(../../image/cotation.png);
+//         position: absolute;
+//         top: 70%;
+//         left: 0;
+//         right: 0;
+//         margin: 0px auto;
+//       }
+//     }
+//   }
+//   .nav-slide {
+//     width: 186px !important;
+//   }
+//   .center {
+//     .slick-slide {
+//       opacity: 0.5;
+//       align-items: center;
+//       justify-content: center;
+//       display: flex;
+//       transform: scale(0.99);
+//     }
+//     .slick-current {
+//       opacity: 1 !important;
+//       transform: scale(1) !important;
+//       img {
+//         border: 5px solid $primary;
+//       }
+//     }
+//     .slick-next {
+//       right: -50px;
+//       background: $primary;
+//       width: 30px;
+//       height: 30px;
+//       border-radius: 100%;
+//       z-index: 999;
+//       @media (max-width: 575.98px) {
+//         right: -6px;
+//       }
+//       &::before {
+//         content: '\e825';
+//       }
+//     }
+//     .slick-prev {
+//       left: -50px;
+//       background: $primary;
+//       width: 30px;
+//       height: 30px;
+//       border-radius: 100%;
+//       z-index: 999;
+//       @media (max-width: 575.98px) {
+//         left: -10px;
+//       }
+//       &::before {
+//         content: '\e824';
+//       }
+//     }
+//     button {
+//       &::before {
+//         font-family: revicons;
+//         color: $white;
+//         font-size: 16px;
+//         text-align: center;
+//         font-weight: 700;
+//         @media (max-width: 575.98px) {
+//           font-size: 20px;
+//         }
+//       }
+//     }
+//   }
+//   @media (max-width: 575.98px) {
+//     p {
+//       font-size: 16px;
+//     }
+//   }
+// }

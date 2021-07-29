@@ -1,0 +1,25 @@
+.slick-slide {
+  padding: 0 8px;
+}
+.slick-slider {
+  padding: 0 32px;
+}
+.slick-next {
+  right: -18px !important;
+}
+button {
+  &::before {
+    content: none !important;
+  }
+}
+
+.slick-prev {
+  left: -18px !important;
+}
+.popularStayCard {
+  width: 100%;
+  padding: 2px !important;
+  &:hover {
+    box-shadow: -1px -1px 21px rgb(214, 210, 210);
+  }
+}

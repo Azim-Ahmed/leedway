@@ -1,0 +1,41 @@
+.specialOfferstyle {
+  margin-left: 14px;
+  p {
+    cursor: pointer;
+    border: 1px solid gray;
+    margin-left: 11px;
+    padding: 7px;
+    font-size: larger;
+    font-weight: 500;
+    border-radius: 5px;
+  }
+}
+@media (max-width: 575.98px) {
+  .h1TagSpecialOffer {
+    font-size: 24px;
+  }
+  .specialOfferstyle {
+    margin-left: 6px;
+    p {
+      cursor: pointer;
+      border: 1px solid gray;
+      margin-left: 5px;
+      padding: 4px;
+      display: inline-flex;
+      font-size: larger;
+      font-weight: 500;
+      border-radius: 5px;
+    }
+  }
+}
+.specailOfferCard {
+  width: 100%;
+
+  box-shadow: -1px -1px 21px rgb(214, 210, 210);
+
+  .viewDetailsColor {
+    color: rgb(25, 113, 245);
+    font-size: larger;
+    font-weight: 400;
+  }
+}
